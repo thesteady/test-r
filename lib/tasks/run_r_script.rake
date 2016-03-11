@@ -8,15 +8,3 @@ task :run_r_script => :environment do
   output = `Rscript --vanilla #{filepath} --args hiya`
   puts "Here's the output:\n #{output}"
 end
-
-
-# # Useful Notes
-# ## Getting R on your Machine
-
-#```
-#  brew tap homebrew/science
-#  brew install r
-#```
-
-# About R commandArgs:
-# https://stat.ethz.ch/R-manual/R-devel/library/base/html/commandArgs.html
