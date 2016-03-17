@@ -1,5 +1,3 @@
-#!/user/bin/env Rscript
-
 library('stringr') #1
 
 args = commandArgs(trailingOnly=TRUE) #2
